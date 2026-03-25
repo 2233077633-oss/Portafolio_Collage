@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dos</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.contenedor-principal {
+    display: flex; 
+    flex-wrap: wrap;
+    min-height: 100vh; 
+}
+
+.columna {
+    flex: 1; 
+    min-width: 300px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.texto {
+    background-color: #f4f4f4; 
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+a{
+    color: black;
+    font-size: 50px;
+    position: center;
+}
+    </style>
+</head>
+<body>
+    <div class="contenedor-principal">
+        <div class="columna texto">
+            <a href="paginatres.html">¿que queda de mi?</a>
+        </div>
+        <div class="columna imagen">
+            <img src="../assets/funo.png" alt="Descripción de la imagen">
+
+        </div>
+    </div>
+
+
+</body>
+</html>

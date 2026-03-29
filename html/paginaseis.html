@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.contenedor-principal {
+    display: flex;
+    height: 100vh;
+}
+
+.columna {
+    width: 50%; /* mitad y mitad */
+    flex: 1; 
+    min-width: 300px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 200px;
+}
+
+.columna img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* llena sin deformar */
+}
+body{
+    background-color: black;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: center;
+}
+</style>
+</head>
+<body>
+    <div class="contenedor-principal">
+    <div class="columna">
+        <img src="../assets/collageu.png">
+    </div>
+    <div class="columna">
+        <img src="../assets/dos.png">
+    </div>
+</body>
+</html>

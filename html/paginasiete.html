@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siete
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: black;
+            position: relative;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .main-img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 95vw;
+            width: 800px;
+            height: auto;
+            border: 0;
+            z-index: 10;
+        }
+        .around-img {
+            position: absolute;
+            max-width: 150px;
+            max-height: 150px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            object-fit: cover;
+        }
+        /* Posiciones alrededor */
+        .pos-0 { top: 10%; left: 50%; transform: translateX(-50%); }
+        .pos-1 { top: 20%; left: 20%; }
+        .pos-2 { top: 20%; right: 20%; }
+        .pos-3 { top: 40%; left: 10%; }
+        .pos-4 { top: 40%; right: 10%; }
+        .pos-5 { bottom: 20%; left: 20%; }
+        .pos-6 { bottom: 20%; right: 20%; }
+        .pos-7 { bottom: 10%; left: 50%; transform: translateX(-50%); }
+        .pos-8 { top: 30%; left: 5%; }
+        .pos-9 { top: 30%; right: 5%; }
+        .pos-10 { bottom: 30%; left: 5%; }
+        .pos-11 { bottom: 30%; right: 5%; }
+        .pos-12 { top: 5%; left: 30%; }
+        .pos-13 { top: 5%; right: 30%; }
+        .pos-14 { bottom: 5%; left: 30%; }
+        .pos-15 { bottom: 5%; right: 30%; }
+        .pos-16 { top: 50%; left: 5%; transform: translateY(-50%); }
+        .pos-17 { top: 50%; right: 5%; transform: translateY(-50%); }
+        .pos-18 { top: 10%; left: 10%; }
+        .pos-19 { top: 10%; right: 10%; }
+        .pos-20 { bottom: 10%; left: 10%; }
+        .pos-21 { bottom: 10%; right: 10%; }
+    </style>
+    <div class="container">
+        <img src="../assets/clll.png" alt="imagen centrada" class="main-img">
+        <img src="../img/uno.JPG" alt="imagen alrededor" class="around-img pos-0">
+        <img src="../img/dos.JPG" alt="imagen alrededor" class="around-img pos-1">
+        <img src="../img/tres.JPG" alt="imagen alrededor" class="around-img pos-2">
+        <img src="../assets/col.jpeg" alt="imagen alrededor" class="around-img pos-3">
+        <img src="../assets/colectivo.png" alt="imagen alrededor" class="around-img pos-4">
+        <img src="../img/cuatro.JPG" alt="imagen alrededor" class="around-img pos-5">
+        <img src="../img/cinco.JPG" alt="imagen alrededor" class="around-img pos-6">
+        <img src="../img/seis.JPG" alt="imagen alrededor" class="around-img pos-7">
+        <img src="../img/siete.JPG" alt="imagen alrededor" class="around-img pos-8">
+        <img src="../img/ocho.JPG" alt="imagen alrededor" class="around-img pos-9">
+        <img src="../img/seis.JPG" alt="imagen alrededor" class="around-img pos-10">
+        <img src="../img/doce.JPG" alt="imagen alrededor" class="around-img pos-11">
+        <img src="../assets/colectivo.png" alt="imagen alrededor" class="around-img pos-12">
+        <img src="../assets/ptdos.png" alt="imagen alrededor" class="around-img pos-13">
+        <img src="../assets/ptuno.png" alt="imagen alrededor" class="around-img pos-14">
+        <img src="../assets/retrator.png" alt="imagen alrededor" class="around-img pos-15">
+        <img src="../assets/siluetados.png" alt="imagen alrededor" class="around-img pos-16">
+        <img src="../assets/silueta_collage.png" alt="imagen alrededor" class="around-img pos-17">
+        <img src="../img/diez.JPG" alt="imagen alrededor" class="around-img pos-18">
+        <img src="../img/once.JPG" alt="imagen alrededor" class="around-img pos-19">
+        <img src="../img/nueve.JPG" alt="imagen alrededor" class="around-img pos-20">
+        <img src="../assets/uno.jpg" alt="imagen alrededor" class="around-img pos-21">
+        <img src="../assets/uno.png" alt="imagen alrededor" class="around-img pos-0">
+        <img src="../img/ocho.JPG" alt="imagen alrededor" class="around-img pos-1">
+    </div>
+</body>
+</html>
